@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { JSX, useEffect } from "react";
@@ -91,8 +92,9 @@ export default function About(): JSX.Element {
                 <div className="text-4xl mb-4">🍊</div>
                 <h3 className="text-xl font-semibold mb-4">100% Real Fruit</h3>
                 <p className="text-gray-600">
-                  Every can is packed with fresh-cut fruit slices—nature's
-                  original flavor booster.
+                  {
+                    "Every can is packed with fresh-cut fruit slices—nature's original flavor booster."
+                  }
                 </p>
               </div>
               <div className="  rounded-lg shadow-md p-8 text-center">
