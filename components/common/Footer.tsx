@@ -1,4 +1,5 @@
 // components/common/Footer.tsx
+import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -16,19 +17,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-400 hover:text-white">
+                <Link href="/" className="text-gray-400 hover:text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-400 hover:text-white">
+                <Link href="/about" className="text-gray-400 hover:text-white">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/products" className="text-gray-400 hover:text-white">
+                <Link
+                  href="/products"
+                  className="text-gray-400 hover:text-white"
+                >
                   Products
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

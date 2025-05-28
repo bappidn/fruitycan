@@ -1,9 +1,8 @@
-// app/contact/page.tsx
 "use client";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { SocialGrid } from "../../../components/common/SocialGrid";
 
-export default function Contact(): JSX.Element {
+export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleChange = (
@@ -15,7 +14,6 @@ export default function Contact(): JSX.Element {
     alert(`Thanks for contacting us, ${form.name}!`);
   };
 
-  // you can re-use your IntersectionObserver fade-in if you like:
   useEffect(() => {
     const obs = new IntersectionObserver(
       (entries) => {
