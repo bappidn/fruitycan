@@ -4,12 +4,11 @@ import Link from "next/link";
 import { Card } from "../ui/card"; // adjust path as needed
 
 const GRID_ITEMS = [
-  { icon: "house-door", color: "text-orange-500", text: "Home", href: "/" },
   {
     icon: "instagram",
     color: "text-pink-500",
     text: "Instagram",
-    href: "https://instagram.com/fruitycan",
+    href: "https://www.instagram.com/fruitycan.official/",
     external: true,
   },
   {
@@ -23,14 +22,21 @@ const GRID_ITEMS = [
     icon: "youtube",
     color: "text-red-600",
     text: "YouTube",
-    href: "https://youtube.com/fruitycan",
+    href: "https://www.youtube.com/@fruitycan",
+    external: true,
+  },
+  {
+    icon: "linkedin",
+    color: "text-blue-700",
+    text: "LinkedIn",
+    href: "https://www.linkedin.com/company/fruitycan/",
     external: true,
   },
 ];
 
 export function SocialGrid() {
   return (
-    <div className="flex items-center justify-center ">
+    <div className="flex items-center justify-center">
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full max-w-4xl">
         {GRID_ITEMS.map((item, index) => {
           const content = (
