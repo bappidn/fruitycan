@@ -121,7 +121,6 @@ export default function About(): JSX.Element {
           </div>
         </div>
 
-        {/* Meet the Team */}
         <div className="py-16   fade-in">
           <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
