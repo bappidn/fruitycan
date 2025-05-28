@@ -38,7 +38,7 @@ export default function Home() {
           </h2>
           <p className={"text-gray-600 text-lg mb-8 max-w-2xl mx-auto"}>
             {
-              "We combine real fruit with superfoods and natural herbs to craft blended juices that boost energy and Fruity Cans filled with fresh fruit in herbal tea, coconut water, or lightly sparkling botanical spritzers—no artificial additives, just pure refreshment."
+              "We combine real fruit with super foods and natural herbs to craft blended juices that boost energy and Fruity Cans filled with fresh fruit in herbal tea, coconut water, or lightly sparkling botanical spritzers—no artificial additives, just pure refreshment."
             }
           </p>
           <div className={"flex justify-center gap-4"}>
